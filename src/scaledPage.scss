@@ -1,0 +1,16 @@
+ui-scaledpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    >svg {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    foreignObject>*>svg {
+        height: 100%;
+        width: 100%;
+    }
+}
